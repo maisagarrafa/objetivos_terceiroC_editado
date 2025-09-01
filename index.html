@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+<body>
+    <header class="container text-center">
+        <img src="img/maisa.png" alt="avatar" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou maisa</p>
+        <h1>Eu estudo pensamento computacional </h1>
+        <p>sou a maisa estudante do setimo colegio da policia molitar do parana, cursando o terceiro ano do ensimo medio. </p>
+        <div>
+            <p class="badge bg-secondary">Volei</p>
+            <p class="badge bg-secondary">Diciplina</p>
+            <p class="badge bg-secondary">HandBoll</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="img/farda.png" class="card-img-top" alt="cpm">
+                    <div class="card-body">
+                        <h5 class="card-title">7º Cpm</h5>
+                        <p class="card-text">Atualmente, estudo no Colégio da Polícia Militar do Paraná, cursando o 3º ano do ensino médio.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja mais sobre o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/bolll.png" class="card-img-top" alt="esponte">
+                    <div class="card-body">
+                        <h5 class="card-title">Handboll</h5>
+                        <p class="card-text">O handebol me proporcionou experiências únicas dentro e fora da quadra.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja mais sobre o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/volei.png" class="card-img-top" alt="volei">
+                    <div class="card-body">
+                        <h5 class="card-title">Vôlei</h5>
+                        <p class="card-text">O voleibol sempre fez parte da minha trajetória esportiva.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja mais sobre o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Diciplina</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Essa instituição representa um marco na minha formação, pois alia ensino de qualidade com valores como disciplina, respeito e responsabilidade. A experiência de estudar nesse colégio me ajuda a desenvolver não apenas conhecimentos acadêmicos, mas também habilidades para a vida, preparando-me para novos desafios e para o futuro.</p>
+                   </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Handboll</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Através desse esporte, aprendi a importância da agilidade, da estratégia e da união para vencer desafios. Participar de treinos e competições fortaleceu minha determinação e meu espírito de liderança, além de me mostrar que a persistência é essencial para evoluir constantemente. O handebol se tornou uma parte importante da minha formação, tanto como atleta quanto como pessoa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Volei</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Tive a oportunidade de participar dos Jogos da Juventude, tanto na modalidade de areia quanto na quadra, vivenciando momentos de superação, disciplina e trabalho em equipe. Cada partida foi uma chance de desenvolver não apenas minhas habilidades técnicas, mas também a capacidade de comunicação, respeito e cooperação com meus colegas. O esporte me ensinou que o esforço coletivo é fundamental para alcançar bons resultados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="#">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
